@@ -2,10 +2,13 @@ package custom.build.gradle
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.GradleException
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.TaskAction
 
 class CoverageCheckTask extends DefaultTask {
+    @Internal
     String reportPath
+    @Internal
     String coverageRequired
 
     @TaskAction
@@ -81,6 +84,7 @@ class CoverageCheckTask extends DefaultTask {
         return metrics
     }
 
+    @Internal
     def getXMLParserInstance() {
         def parser = new XmlParser()
         parser.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false)

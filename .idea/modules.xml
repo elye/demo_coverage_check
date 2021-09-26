@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TestingCoverage.iml" filepath="$PROJECT_DIR$/TestingCoverage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/buildSrc/buildSrc.iml" filepath="$PROJECT_DIR$/buildSrc/buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_coverage_check.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_coverage_check.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/demo_coverage_check.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/demo_coverage_check.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo_coverage_check.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/demo_coverage_check.buildSrc.iml" />
     </modules>
   </component>
 </project>
